@@ -230,10 +230,12 @@
     {
       "scope": [
         "string",
+
         "punctuation.definition.string",
         "punctuation.definition.string.begin.json",
         "punctuation.definition.string.end.json",
-        "string punctuation.section.embedded source"
+        "string punctuation.section.embedded source",
+        "source.json"
       ],
       "settings": {
         "foreground": "#9ecbff"
@@ -352,7 +354,8 @@
         "punctuation.definition.tag.begin.html",
         "punctuation.definition.tag.end.html",
         "entity.other.attribute-name.class.css",
-        "entity.name.tag.html"
+        "entity.name.tag.html",
+        "support.type.property-name.json"
       ],
       "settings": {
         "foreground": "#569CD6"
