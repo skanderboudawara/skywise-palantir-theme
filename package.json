@@ -1,0 +1,31 @@
+{
+  "name": "skywise-palantir-theme",
+  "displayName": "skywise-palantir-theme",
+  "description": "A vscode theme inspired from skywise palantir dark theme",
+  "version": "0.0.1",
+  "license": "MIT",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "github",
+    "dark",
+    "palantir",
+    "skywise",
+    "code repository"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "skywise palantir theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/skywise palantir theme-color-theme.json"
+      }
+    ]
+  }
+}
