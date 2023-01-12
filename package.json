@@ -4,6 +4,10 @@
   "description": "A vscode theme inspired from skywise palantir dark theme",
   "version": "0.0.1",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skanderboudawara/skywise-palantir-theme/"
+  },
   "icon": "icon.png",
   "engines": {
     "vscode": "^1.74.0"
@@ -27,5 +31,8 @@
         "path": "./themes/skywise palantir theme-color-theme.json"
       }
     ]
-  }
+  },
+  "publishConfig": {
+		"access": "public"
+	}
 }
